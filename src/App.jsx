@@ -365,7 +365,7 @@ export default function App(){
 
                   {/* Preferences (Delivery only for Households) */}
                   <div className="grid sm:grid-cols-2 gap-3">
-                    {customerType === "Household" and (
+                    {customerType === "Household" && (
                       <div className="grid gap-2">
                         <label className="text-sm font-medium">Delivery preference</label>
                         <select
