@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional niceties */
+::selection { background: rgba(16, 185, 129, 0.3); color: #0f172a; }
+html.dark ::selection { background: rgba(16, 185, 129, 0.25); color: #f8fafc; }
